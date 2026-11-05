@@ -1,0 +1,29 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Local databases and generated data
+qdrant_storage/
+.qdrant/
+
+# Credentials
+*.pem
+*.key
